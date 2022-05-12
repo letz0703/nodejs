@@ -1,0 +1,18 @@
+{
+  "homepage": "https://www.especialits.org/node",
+  "name": "node",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "“ManI” <“letz0703@gmail.com”>",
+  "license": "MIT",
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build",
+  "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
